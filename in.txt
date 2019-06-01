@@ -43,17 +43,17 @@ xkb_symbols "guj-netgkb" {
       key <BKSL> {	[ U0A82, U0ACDU0AB0	]	}; // (\) bindu, vocalic r
 
 //Second row
-      key <AC01> { [      U0A85, U0A86	]	}; // (A) a, aa
-      key <AC02> { [      U0AB8, U0AB6	]	}; // (S) sa, sha
-      key <AC03> { [      U0AA6, U0AA1  ]	}; // (D) da, da
-      key <AC04> { [      U0AAB, U0AA7  ]	}; // (F) fa, dha
-      key <AC05> { [      U0A97, U0A98  ]	}; // (G) ga, gha
-      key <AC06> { [      U0AB9 	]	}; // (H) ha
-      key <AC07> { [      U0A9C 	]	}; // (J) ja
-      key <AC08> { [      U0A95, U0A96 	]	}; // (K) ka, kha
-      key <AC09> { [      U0AB2, U0AB3, U0200D 	]	}; // (L) la, ala, zwj
-      key <AC10> { [      U0AC7, U0A8F, semicolon 	]	}; // (;) vowel sign e, e, semicolon
-      key <AC11> { [      U0ACD, quotedbl, apostrophe 	]	}; // (') viram, double quote, single quote (apostrophe)
+      key <AC01> { [      U0AAC, U0AC9	]	}; // (A) ba, O
+      key <AC02> { [      U0A95, U0028	]	}; // (S) ka, (
+      key <AC03> { [      U0AAE, U0AE0  ]	}; // (D) ma, RU
+      key <AC04> { [      U0ABE, U0029  ]	}; // (F) kano, )
+      key <AC05> { [      U0AA8, U0AA8U0ACD  ]	}; // (G) na, na\
+      key <AC06> { [      U0A9C, U0A9D 	]	}; // (H) ja, za
+      key <AC07> { [      U0AB5, U0AB5U0ACD 	]	}; // (J) va, va\
+      key <AC08> { [      U0A9B, U0A8B 	]	}; // (K) chha, RRU
+      key <AC09> { [      U0AC0, U0ABF 	]	}; // (L) ee, i
+      key <AC10> { [      U0AB8, U0AB8U0ACD 	]	}; // (;) sa, sa\
+      key <AC11> { [      U0AC3, U0AB0U0ACD 	]	}; // (') rU, r\
 
 //Third row
       key <AB01> { [      U0A9D, U0AC3, U0AC4		]       }; // (Z) za, vowel sign vocalic r, vowel sign vocalic rr
