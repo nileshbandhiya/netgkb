@@ -56,14 +56,14 @@ xkb_symbols "guj-netgkb" {
       key <AC11> { [      U0AC3, U0AB0U0ACD 	]	}; // (') rU, r\
 
 //Third row
-      key <AB01> { [      U0A9D, U0AC3, U0AC4		]       }; // (Z) za, vowel sign vocalic r, vowel sign vocalic rr
-      key <AB02> { [      U0ABD, U0ABC	]       }; // (X) avagraha, nukta
-      key <AB03> { [      U0A9A, U0A9B  ]       }; // (C) cha, chha
-      key <AB04> { [      U0AB5   ]       }; // (V) va
-      key <AB05> { [      U0AAC, U0AAD   ]       }; // (B) ba, bha
-      key <AB06> { [      U0AA8, U0AA3  ]       }; // (N) na, ana
-      key <AB07> { [      U0AAE  ]       }; // (M) ma
-      key <AB08> { [      comma, U0AC5, U0A8D  ]       }; // (<) comma, vowel sign candra e, candra e
-      key <AB09> { [      period, U0A82, U0200C  ]       }; // (>) period, anusvara, zwnj
-      key <AB10> { [      slash, question, colon   ]       }; // (?) slash, question, colon
+      key <AB01> { [      U0AB0, U0AB6U0ACDU0AB0		]       }; // (Z) ra, Shra
+      key <AB02> { [      U0AB6, U0AB6U0ACD	]       }; // (X) sha, sha\
+      key <AB03> { [      U0AB9, U0021  ]       }; // (C) ha, !
+      key <AB04> { [      U0A85, U0A86   ]       }; // (V) a, Aa
+      key <AB05> { [      U0A96, U0A8A   ]       }; // (B) kha, U
+      key <AB06> { [      U0AA6, U0AA6U0ACDU0AAF  ]       }; // (N) da, dya
+      key <AB07> { [      U0ACB, U003F  ]       }; // (M) o, ?
+      key <AB08> { [      U0AB2, U0AB2U0ACD  ]       }; // (<) la, la\
+      key <AB09> { [      U0A87, U0A88  ]       }; // (>) i, ee
+      key <AB10> { [      U0AB3, U0ACC   ]       }; // (?) La, au
 };
