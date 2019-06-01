@@ -1,17 +1,13 @@
 // $XKeyboardConfig$
 
-// This layout includes phonetic keyboard layouts for:
-//     - Gujarati 
-// Visit http://medium.com/@nileshbandhiya for more updates.
-
-// netGujarati Keyboard Layout by Nilesh Bandhiya
+// netGujarati Keyboard Layout for Ubuntu OS by Nilesh Bandhiya
 
 partial alphanumeric_keys 
 xkb_symbols "guj-netgkb" {
       name[Group1]= "India - netGujarati";
       key.type="FOUR_LEVEL";
 
-//Numbers row
+//Numbers row - 1234560-+
       key <TLDE> { [      U0A8F, U0A93    ] }; // E, O
       key <AE01> { [      U0AE7, U0A95U0ACDU0AB7, 1     ] }; // 1, x
       key <AE02> { [      U0AE8, 0AD0, 2 	       ] }; // 2, OM
@@ -26,7 +22,7 @@ xkb_symbols "guj-netgkb" {
       key <AE11> { [      minus, U0AA2, equal  ] }; // -, Dha
       key <AE12> { [      U0ACD, U0A81, plus   ] }; // -, Khodo 
 
-//First row
+//First row - qwertyuiop[]\
       key <AD01> { [      U0AB7, U002F  ]	}; // (Q) Shha, /
       key <AD02> { [      U0A98, U0A8D  ]	}; // (W) Gha, E
       key <AD03> { [      U0AAD, U0A90  ]	}; // (E) Bha, AI
@@ -39,10 +35,9 @@ xkb_symbols "guj-netgkb" {
       key <AD10> { [      U002E, U0A89 	]	}; // (P) . , u 
       key <AD11> { [      U0AC7, U0AC8 	]	}; // ([) e, ai
       key <AD12> { [      U0AC1, U0AC2 	]	}; // (]) u, au
-
       key <BKSL> {	[ U0A82, U0ACDU0AB0	]	}; // (\) bindu, vocalic r
 
-//Second row
+//Second row - asdfghjkl;'
       key <AC01> { [      U0AAC, U0AC9	]	}; // (A) ba, O
       key <AC02> { [      U0A95, U0028	]	}; // (S) ka, (
       key <AC03> { [      U0AAE, U0AE0  ]	}; // (D) ma, RU
@@ -55,7 +50,7 @@ xkb_symbols "guj-netgkb" {
       key <AC10> { [      U0AB8, U0AB8U0ACD 	]	}; // (;) sa, sa\
       key <AC11> { [      U0AC3, U0AB0U0ACD 	]	}; // (') rU, r\
 
-//Third row
+//Third row - zxcvbnm,./
       key <AB01> { [      U0AB0, U0AB6U0ACDU0AB0		]       }; // (Z) ra, Shra
       key <AB02> { [      U0AB6, U0AB6U0ACD	]       }; // (X) sha, sha\
       key <AB03> { [      U0AB9, U0021  ]       }; // (C) ha, !
